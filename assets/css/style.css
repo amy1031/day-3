@@ -1,129 +1,101 @@
-body {
-    margin: 0 auto;
+.navbar-right {
+    margin-right: 50px;
 }
 
-h1 {
-    text-align: left;
-    font-family: helvetica;
-    font-size: 48px;
+.jumbotron {
+    background: url("http://i.imgur.com/pfkZd9F.jpg");
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  border-radius: 0px;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+    color: #000 !important;
+    font-family: arial;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+    font-family: playfair display;
     color: #fff;
+    padding-left: 70px;
+    padding-top: 135px;
+    width: 300px;
 }
 
-.p-header {
-    font-family: helvetica;
+.jumbotron p {
     font-size: 16px;
+    font-family: helvetica;
     color: #fff;
+    padding-left: 70px;
 }
 
-.blue-bg {
-    background-color: #469ae0;
+.center-quote {
+    background-color: #000;
     color: #fff;
+    font-family: noto serif;
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+    padding: 50px;
+    font-style: italic;
 }
 
-/*.card-block {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 40%;
-    background-color: #469ae0;
-    border: 0px;
-}
-
-.card-title {
-    font: #fff;
-    font-family: helvetica;
-    font-size: 16px;
-    text-align: center;
-}
-
-.card-text {
-    font: #fff;
-    font-family: helvetica;
-    font-size: 12px;
-    text-align: center;
-}*/
-
-h2 {
-    font-family: helvetica;
-    font-size: 26px;
-    padding-top: 100px;
-    text-align: center;
-    color: #000;
-}
-
-h3 {
-    font-family: helvetica;
-    font-size: 14px;
-    padding-top: 10px;
-    text-align: center;
+.center-quote .p {
+    background-color: #000;
     color: #fff;
-    background-color: #469ae0;
+    font-family: noto serif;
+    font-size: 24px;
+    font-style: italic;
 }
 
-.news {
-    font-family: helvetica;
-    font-size: 12px;
-    text-align: center;
-    color: #000;
-}
-
-.info {
-    font-family: helvetica;
-    font-size: 12px;
-    text-align: center;
-    color: #fff;
-    background-color: #469ae0;
-}
-
-.btn-default {
-    border: 1px solid #909090;
-    color: #fff;
-    background-color: #469ae0;
+.icons {
+    padding: 50px 0px 50px 0px;
 }
 
 .footer {
     background-color: #000;
     color: #fff;
-    padding: 25px 100px 25px 100px;
-width: ;idth: 100%;
+    font-family: arial;
+    font-size: 14px;
+    padding: 50px;
+    height: 200px;
 }
 
-.footer-text {
-    font-family: helvetica;
-    font-size: 12px;
-    text-align: right;
+.footer a:link {
     color: #fff;
-    background-color: #000;
-    padding-bottom: 20px;
-    margin: 0px 0px 0px 0px;
+    font-family: arial;
+    font-size: 14px;
 }
 
-.footer-icons {
-    text-align: left;
-    color: #fff;
-    background-color: #000;
-    margin: 0px 0px 0px 0px;
-}
-
-.map, .img-map {
-     margin: 0;
+.iframe-container{
+    position: relative;
     width: 100%;
+    padding-bottom: 56.25%;
 }
-
-.icon {
+.iframe-container > *{
     display: block;
-    margin: 20px auto 5px auto;
-    text-align: center;
-}
-
-.form-inline {
-    display: block;
-    width:25%;
-    margin: 0 auto;
-    padding-bottom: 50px;
-}
-
-.header-text {
     position: absolute;
-    top: 30%;
-    left: 25%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     width: 100%;
+}
