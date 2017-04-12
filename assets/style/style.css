@@ -1,0 +1,125 @@
+h1 {
+    text-align: left;
+    font-family: helvetica;
+    font-size: 48px;
+    color: #fff;
+}
+
+.p-header {
+    font-family: helvetica;
+    font-size: 16px;
+    color: #fff;
+}
+
+.blue-bg {
+    background-color: #469ae0;
+    color: #fff;
+}
+
+/*.card-block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 40%;
+    background-color: #469ae0;
+    border: 0px;
+}
+
+.card-title {
+    font: #fff;
+    font-family: helvetica;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card-text {
+    font: #fff;
+    font-family: helvetica;
+    font-size: 12px;
+    text-align: center;
+}*/
+
+h2 {
+    font-family: helvetica;
+    font-size: 26px;
+    padding-top: 100px;
+    text-align: center;
+    color: #000;
+}
+
+h3 {
+    font-family: helvetica;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #469ae0;
+}
+
+.news {
+    font-family: helvetica;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+}
+
+.info {
+    font-family: helvetica;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background-color: #469ae0;
+}
+
+.btn-default {
+    border: 1px solid #909090;
+    color: #fff;
+    background-color: #469ae0;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 25px 100px 25px 100px;
+width: ;idth: 100%;
+}
+
+.footer-text {
+    font-family: helvetica;
+    font-size: 12px;
+    text-align: right;
+    color: #fff;
+    background-color: #000;
+    padding-bottom: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer-icons {
+    text-align: left;
+    color: #fff;
+    background-color: #000;
+    margin: 0px 0px 0px 0px;
+}
+
+.map, .img-map {
+     margin: 0;
+    width: 100%;
+}
+
+.icon {
+    display: block;
+    margin: 20px auto 5px auto;
+    text-align: center;
+}
+
+.form-inline {
+    display: block;
+    width:25%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.header-text {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 100%;
