@@ -1,6 +1,13 @@
 .bg-blue {
   background: #3079AB;
   color: white;
+  padding: 50px;
+}
+
+.bg-gray {
+  background: #909090;
+  color: white;
+  padding: 50px;
 }
 
 .card-block {
